@@ -6,51 +6,32 @@
       dark
     >
       <div class="d-flex align-center">
-        <v-img
-          alt="Vuetify Logo"
-          class="shrink mr-2"
-          contain
-          src="https://cdn.vuetifyjs.com/images/logos/vuetify-logo-dark.png"
-          transition="scale-transition"
-          width="40"
-        />
-
-        <v-img
-          alt="Vuetify Name"
-          class="shrink mt-1 hidden-sm-and-down"
-          contain
-          min-width="100"
-          src="https://cdn.vuetifyjs.com/images/logos/vuetify-name-dark.png"
-          width="100"
-        />
+        <h1>JA.K Warehouse</h1>
       </div>
+      
+        <v-btn icon="mdi-heart"></v-btn>
 
-      <v-spacer></v-spacer>
+        <v-btn icon="mdi-magnify"></v-btn>
 
-      <v-btn
-        href="https://github.com/vuetifyjs/vuetify/releases/latest"
-        target="_blank"
-        text
-      >
-        <span class="mr-2">Latest Release</span>
-        <v-icon>mdi-open-in-new</v-icon>
-      </v-btn>
+        <v-btn icon="mdi-dots-vertical"></v-btn>
     </v-app-bar>
 
     <v-main>
-      <HelloWorld/>
+      <DashBoard/>
     </v-main>
   </v-app>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld';
+//import HelloWorld from './components/HelloWorld';
+import DashBoard from './components/DashBoard';
 
 export default {
   name: 'App',
 
-  components: {
-    HelloWorld,
+  components: {    
+//    HelloWorld,
+    DashBoard
   },
 
   data: () => ({
