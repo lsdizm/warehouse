@@ -6,7 +6,7 @@
       dark
     >
       <div class="d-flex align-center">
-        <h1>JA.K Warehouse</h1>
+        <h1>ja.k warehouse</h1>
       </div>
       
         <v-btn icon="mdi-heart"></v-btn>
