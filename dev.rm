@@ -1,5 +1,6 @@
 1. vuejs 설치 (버전 2로)
 2. vuetify 추가
-3. 배포후 nginx 폴더로 복사 (sudo cp -r /dist /var/www/html/dist)
+3. 배포후 nginx 폴더로 복사 (sudo cp -r dist /var/www/html/dist)
+4. sudo systemctl restart nginx
 
 $npm install vuex@2.0.0 
